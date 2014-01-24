@@ -1,0 +1,6 @@
+build-stamp
+debian/gforge-backle-plugin.debhelper.log
+debian/gforge-backle-plugin.postrm.debhelper
+debian/gforge-backle-plugin.substvars
+debian/gforge-backle-plugin/
+debian/files
