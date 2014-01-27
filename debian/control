@@ -7,7 +7,7 @@ Standards-Version: 3.9.5
 Build-Depends: debhelper (>= 9)
 Homepage: https://github.com/smancke/gforge-backle-plugin
 
-Package: gforge-backle-plugin
+Package: gforge-plugin-backle
 Architecture: all
 Depends: backle,
          gforge-common,
