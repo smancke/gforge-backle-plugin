@@ -12,7 +12,7 @@ if [ "$1" = "configure" ]; then
 
         if [ "$COMMON_STATE" = "installed" ] || [ "$COMMON_STATE" = "unpacked" ] ; then
 		[ -d /etc/apache2/conf.d/ ] && [ ! -L /etc/apache2/conf.d/backle-gforge.conf ] && ln -s ../conf-available/backle-gforge.conf /etc/apache2/conf.d/backle-gforge.conf
-                /etc/init.d/apache2 reload 3>/dev/null || true
+                invoke-rc.d apache2 reload 3>/dev/null || true
 	fi
 
         /usr/share/gforge/bin/register-plugin backle 'Backle'
@@ -21,4 +21,3 @@ fi
 #DEBHELPER#
 
 exit 0
-

@@ -1,5 +1,9 @@
-gforge-backle-plugin (0.1) unstable; urgency=low
+gforge-backle-plugin (0~20140127) tarent; urgency=low
 
+  [ Sebastian Mancke ]
   * First release.
 
- -- Sebastian Mancke <s.mancke@tarent.de>  Fri, 24 Jan 2014 14:53:38 +0100
+  [ Thorsten Glaser ]
+  * Tweak packaging
+
+ -- Thorsten Glaser <t.glaser@tarent.de>  Mon, 27 Jan 2014 13:30:44 +0100

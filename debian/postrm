@@ -13,7 +13,7 @@ if [ "$1" = "remove" ] || [ "$1" = "purge" ]; then
         if [ "$COMMON_STATE" = "installed" ] || [ "$COMMON_STATE" = "unpacked" ] ; then
                 rm -f /etc/apache2/conf.d/backle-gforge.conf
 	        rm -f /etc/apache2/conf-available/backle-gforge.conf
-	        /etc/init.d/apache2 reload 3>/dev/null || true
+	        invoke-rc.d apache2 reload 3>/dev/null || true
         fi
 
         /usr/share/gforge/bin/unregister-plugin backle
@@ -25,5 +25,3 @@ fi
 #DEBHELPER#
 
 exit 0
-
-
