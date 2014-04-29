@@ -39,8 +39,10 @@ class BacklePlugin extends Plugin {
 	$params['TOOLTIPS'][] = _('Backle - the agile backlog');
 	$params['TITLES'][]= 'Backlog';
 	$params['DIRS'][]=util_make_url('/backle/'.$project->getUnixName());
+	if ($params['toptab'] == $this->name) {
+		$params['selected'] = count($params['TITLES']) - 1;
+	}
       }
-      (($params['toptab'] == $this->name) ? $params['selected']=(count($params['TITLES'])-1) : '' );
     }  
   }
 }
