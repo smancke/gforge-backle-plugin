@@ -1,3 +1,9 @@
+gforge-backle-plugin (0~20150609) tarent; urgency=low
+
+  * Add dependency on Evolvis with Bootstrap theming
+
+ -- Thorsten Glaser <t.glaser@tarent.de>  Tue, 09 Jun 2015 16:35:53 +0200
+
 gforge-backle-plugin (0~20140212) tarent; urgency=medium
 
   * Change name to match better the other plugins

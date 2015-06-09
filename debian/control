@@ -13,6 +13,7 @@ Depends: backle,
          gforge-common,
          gforge-db-postgresql,
          gforge-web-apache2,
+         evolvis-theme-bootstrap-core,
          ${misc:Depends}
 Description: GForge plugin to integrate backle
  This FusionForge plugin integrates backle, the agile backlog management
